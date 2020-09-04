@@ -1,0 +1,82 @@
+.ToolBar{
+  background-color: #1a0015;
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  color: #a4a9ad;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 100;
+}
+
+.Logo{
+width: 5rem;
+height: auto;
+padding-left: 2rem;
+padding-top: 2rem;
+outline: none;
+}
+
+.Logo:hover{
+  cursor:pointer;
+}
+
+.Menu{
+  padding: 0 0.5rem;
+  height: 2rem;
+}
+
+.Filter{
+  padding: 0 0.5rem;
+  height: 2rem;
+}
+.FilterRestriction{
+  display: none;
+}
+
+.CategoryContainer{
+  width:3rem;
+}
+
+.ModalItems{
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  background-color: #1a0015;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top:1;
+}
+
+.NavItems{ 
+  right:0;  
+}
+
+.DrawerItems{
+  left:0;
+}
+
+
+.Close{
+  visibility: hidden;
+}
+
+
+
+@media (max-width:600px){
+  .Logo{
+    width:4rem;
+  }
+  .Menu{
+    width: 1rem;
+  }
+}
+
+@media (min-width:680px){
+  .Filter{display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.TagPage{
+  color: #A4a9ad;
+  width:100%;
+  display: inline-grid;
+  grid-template-columns: 10% 90%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+@media (max-width:680px){
+  .SideMenuContainer{
+    display: none;
+  }
+  .TagPage{
+    grid-template-columns: 100%;
+  }
+}

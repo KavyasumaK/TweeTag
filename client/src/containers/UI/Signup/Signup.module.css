@@ -1,0 +1,17 @@
+.SignupForm{
+  width:30rem;
+  margin: auto;
+  margin-top: 8rem;
+  border: 0.09rem solid #290121;
+}
+
+.ErrorMessage{
+  font: 2rem;
+  color:#EF5B5B;
+}
+
+@media (max-width:600px){
+  .SignupForm{
+    width: 90%;
+  }
+}

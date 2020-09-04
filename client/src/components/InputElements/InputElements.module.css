@@ -1,0 +1,36 @@
+.Input{
+  margin: auto;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+}
+
+.InputElement{
+  outline: none;
+  border: 0.05rem solid #ccc;
+  font: inherit;
+  background-color: #a4a9adff;
+  padding: 0.6rem;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #47053d;
+  border-radius: 0.2rem;
+}
+
+.InputElement:focus{
+  outline: none;
+  background-color: #ccc;
+  border-bottom: 0.2rem solid #ffba49;
+}
+
+.Invalid{
+  border: 0.1rem solid #EF5B5B;
+  background-color: #f79a9a;
+}
+
+.TextArea{
+  height: 8rem;
+  resize: none;
+}

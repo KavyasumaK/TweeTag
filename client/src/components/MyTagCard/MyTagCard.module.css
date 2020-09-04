@@ -1,0 +1,29 @@
+.AllTags{
+  margin: auto;
+  margin-top:2rem;
+  padding-top: 3rem;
+  align-content: center;
+  width:70%;
+}
+.NewTag{
+  margin: 1rem auto;
+  width: 100%;
+  border: 0.015rem solid #290121;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  align-items: center;
+  text-align: justify;
+}
+
+.Tag{
+  font-size: 1.4rem;
+  resize:none;
+  border:none;
+}
+
+
+@media(max-width:680px){
+  .Tag{
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,68 @@
+.EditModal{
+  position: fixed;
+  z-index: 200;
+  border: 1px solid #1a0015;
+  box-shadow: 0 2px 2px #703765;
+  background-color: #1a0015;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  transition: all 0.3s ease-out;
+}
+
+.ModalBackground{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height:100%;
+  position: fixed;
+  z-index:100;
+  top:0;
+  left:0;
+}
+
+.ButtonPositions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.fadeslide-enter-active{
+  animation: openModal 1s ease-in forwards;
+}
+
+.fadeslide-exit-active{
+  animation: closeModal 0.3s ease-out forwards;
+}
+
+@keyframes openModal{
+  0%{
+    opacity:0;
+    transform: translateY(-100%)
+  }
+  100%{
+    opacity:1;
+    transform: translateY(0)
+  }
+}
+
+@keyframes closeModal{
+  0%{
+    opacity:1;
+    transform: translateY(0)
+  }
+  100%{
+    opacity:0;
+    transform: translateY(-100%)
+  }
+}
+
+@media (max-width: 600px){
+  .EditModal{
+    left:5%;
+    width:90%;
+  }
+}

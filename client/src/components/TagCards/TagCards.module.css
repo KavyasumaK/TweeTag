@@ -1,0 +1,36 @@
+.AllTags{
+  margin: auto;
+  margin-top:2rem;
+  padding-top: 3rem;
+  align-content: center;
+  width:70%;
+  text-align: justify;
+}
+.NewTag{
+  margin: 1rem auto;
+  width: 100%;
+  border: 0.1rem solid #290121;
+}
+
+.UserName{
+  margin-top: -0.7rem;
+  margin-left: 0.8rem;
+  color: #20A39E;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.Tag{
+  font-size: 1.2rem;
+  padding:0.5rem 1.5rem;
+}
+
+.TagAppearance{
+  appearance: textarea;
+}
+
+@media(max-width:680px){
+  .Tag{
+    font-size: 1rem;
+  }
+}

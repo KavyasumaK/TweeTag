@@ -1,0 +1,29 @@
+.InsertTag{
+  margin: auto;
+  position:relative;
+  top:3rem;
+  width:35rem;
+  border: 0.09rem solid #290121;
+}
+
+.InsertTagHide{
+  display: none;
+}
+
+.ErrorMessage{
+  padding-top: 5rem;
+  font: 2rem;
+  color:#EF5B5B;
+}
+
+.SuccessMessage{
+  font: 2rem;
+  color:#20A39E;
+}
+
+
+@media (max-width:600px){
+  .InsertTag{
+    width: 90%;
+  }
+}
