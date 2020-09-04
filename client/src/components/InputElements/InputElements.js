@@ -2,7 +2,7 @@ import React from 'react';
 
 import Classes from './InputElements.module.css';
 
-
+//InputEls
 const inputElements = (props)=>{
   let retElement = '';
   const inputClasses = [Classes.InputElement]
